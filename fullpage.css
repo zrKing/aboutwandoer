@@ -65,8 +65,13 @@ h1{
 }
 
 h2{
-	font-size: 2em;
-	color: rgba(227,227,227,0.88);
+	font-size: 3em;
+	color: #fff;
+}
+
+h3{
+	font-size:2.5em;
+	color: #fff;
 }
 
 p{
@@ -328,27 +333,27 @@ p{
 }
 @-webkit-keyframes sdb05 {
 	100% {
-		-webkit-transform: rotate(-45deg) translate(0, 0);
+		-webkit-transform: rotate(135deg) translate(-20px, 20px);
 		opacity: 0;
 	}
 	50% {
 		opacity: 1;
 	}
 	0% {
-		-webkit-transform: rotate(-45deg) translate(-20px, 20px);
+		-webkit-transform: rotate(135deg) translate(0, 0);
 		opacity: 0;
 	}
 }
 @keyframes sdb05 {
 	100% {
-		transform: rotate(-45deg) translate(0, 0);
+		transform: rotate(135deg) translate(-20px, 20px);
 		opacity: 0;
 	}
 	50% {
 		opacity: 1;
 	}
 	0% {
-		transform: rotate(-45deg) translate(-20px, 20px);
+		transform: rotate(135deg) translate(0, 0);
 		opacity: 0;
 	}
 }
@@ -370,23 +375,23 @@ p{
 }
 
 #photos-head{
-	border: red solid 1px;
+	/*border: red solid 1px;*/
 	float: none;
 	
 	
 }
 #photo-h1{
-	border: red dashed 1px;
-	float: left;
-	width: 30%;
-	text-align: center;
+	/*border: red dashed 1px;*/
+	/*float: left;*/
+	text-align: left;
+	padding-left:10%;
 }
 #photo-head-intro{
-	border: red dashed 1px;
+	/*border: red dashed 1px;*/
 	color: #fff;
 	text-align: left;
-	margin-left: 30%;
-	vertical-align: middle;
+	padding-left: 25%;
+	margin-bottom:0px;
 	width: 70%;
 }
 
@@ -394,8 +399,7 @@ p{
 	position: absolute;
 	width: 95%;
 	height: 90%;
-	margin: 0 auto;
-	top:0px;
+	margin: 0 auto ;
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
