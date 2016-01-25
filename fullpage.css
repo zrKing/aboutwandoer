@@ -270,9 +270,10 @@ p{
 	background-color: #e68282;*/
 }
 
-.bgFrame{
+.about-bgFrame{
+	display:table;
+ 	width:auto;
 	text-align: center;
-	width: intrinsic;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: auto;
@@ -284,9 +285,6 @@ p{
 	background-size:100% 100%;
 	
 	border-radius: 10% 10% 10% 10%; 
-	
-	/*border-width: 1px;
-	border:1px dashed red;*/
 }
 
 .container{
@@ -296,9 +294,18 @@ p{
 	margin-top:10px;
 }
 
-#introduce{
-	width: 200px;
-	
+#about-me{
+	width:auto;
+	height:auto;
+}
+
+#about-headimg{
+	width:auto;
+	height:auto;
+}
+
+#about-introduce{
+	width: 200px;	
 }
 
 
@@ -320,27 +327,27 @@ p{
 	box-sizing: border-box;
 }
 @-webkit-keyframes sdb05 {
-	0% {
+	100% {
 		-webkit-transform: rotate(-45deg) translate(0, 0);
 		opacity: 0;
 	}
 	50% {
 		opacity: 1;
 	}
-	100% {
+	0% {
 		-webkit-transform: rotate(-45deg) translate(-20px, 20px);
 		opacity: 0;
 	}
 }
 @keyframes sdb05 {
-	0% {
+	100% {
 		transform: rotate(-45deg) translate(0, 0);
 		opacity: 0;
 	}
 	50% {
 		opacity: 1;
 	}
-	100% {
+	0% {
 		transform: rotate(-45deg) translate(-20px, 20px);
 		opacity: 0;
 	}
@@ -379,6 +386,7 @@ p{
 	color: #fff;
 	text-align: left;
 	margin-left: 30%;
+	vertical-align: middle;
 	width: 70%;
 }
 
