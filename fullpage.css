@@ -311,6 +311,7 @@ p{
 
 #about-introduce{
 	width: 200px;	
+	text-shadow:3px 2px 3px #020202;
 }
 
 
@@ -419,6 +420,7 @@ p{
 }
 
 #change-photos-button{
+	margin-top:-18px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -433,10 +435,11 @@ p{
 #photo-block li{
 	float: left;
 	list-style: none;
-	-webkit-margin-before: 5px;
+/*	-webkit-margin-before: 5px;
 	-webkit-margin-after: 5px;
 	-webkit-margin-start: 5px;
-	-webkit-margin-end: 5px;
+	-webkit-margin-end: 5px;*/
+	margin:5px;
 }
 /* one photo*/
 .photo-box-one{
